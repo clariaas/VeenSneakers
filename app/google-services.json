@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "811188319224",
+    "firebase_url": "https://tokoksepatu.firebaseio.com",
+    "project_id": "tokoksepatu",
+    "storage_bucket": "tokoksepatu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811188319224:android:5ff4e94091066838",
+        "android_client_info": {
+          "package_name": "com.example.vergieclarias.veensneakers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811188319224-ei5a1orqut1arctjce66ngrhjp53p2ni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vergieclarias.veensneakers",
+            "certificate_hash": "b4483724b8599462d98104da4e9f9170a48c9b0a"
+          }
+        },
+        {
+          "client_id": "811188319224-7ssetbslq03jm81ritd0enkvp9sasu4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbxsd7Cgk1iC_bsrjtq_Fty-yzMRYrxUQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811188319224-7ssetbslq03jm81ritd0enkvp9sasu4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

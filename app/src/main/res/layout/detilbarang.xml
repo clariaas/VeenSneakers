@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_alignLeft="@+id/textnama"
+        android:layout_alignStart="@+id/textnama"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textnama"
+        android:layout_alignBottom="@+id/textnama"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:text="Nama" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="45dp"
+        android:text="Harga" />
+
+    <EditText
+        android:id="@+id/textnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="144dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/textharga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignLeft="@+id/textnama"
+        android:layout_alignStart="@+id/textnama"
+        android:ems="10"
+        android:hint="Rupiah"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textharga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Delete" />
+</RelativeLayout>
